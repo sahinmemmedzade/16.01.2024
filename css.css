@@ -1,0 +1,350 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    height: 70px;
+    background-color:  rgba(0, 0, 0, 0.55);
+    display: flex;
+    justify-content: space-around;
+   align-items: center;
+   
+}
+.logo{
+    width: 40%;
+    margin:20px  ;
+    margin-left: 60px;
+}
+.logo>p{
+    color: white;
+    text-transform: capitalize;
+    font-size: 30px;
+}
+.menu{
+    width:60% ;
+    box-sizing: border-box;
+    
+  
+}
+.menuitems{
+    margin: auto 0;
+    display: flex;
+gap:25px;   
+justify-content: center; 
+}
+.menuitems>li{
+    font-style: none;
+    list-style:none;
+color: white;
+font-size: 25px;
+}
+.menuitems>li>a{
+    text-decoration: none;
+    color: white;
+}
+.startbootstrap{
+    height: 650px;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+
+.image>img{
+    width: 200px;
+    height: 200px;
+    margin-left: 180px;
+}
+.info{
+    display: inline-block;
+    width: 620px;
+    height: 50px;
+    color: white;
+    margin-top:20px ;
+}
+.info>p{
+    font-size: 65px;
+    
+}
+.line{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    gap: 6px;
+    height: 70px;
+    margin-left: 4%;
+}
+.icon>i{
+font-size: 26px;
+
+}
+.leftline{
+    
+
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    margin-bottom: 1.5%;
+    border: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-top: none;
+    border-left: none;
+    border-right:none; 
+}
+.rightline{
+    display: inline-block;
+    width: 200px;
+    height: 60px;
+    margin-bottom: 1.8%;
+    border: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: white;
+    border-top: none;
+    border-left: none;
+    border-right:none; 
+}
+.artist{
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 8%;
+    margin-left: 16%;
+}
+#about{
+    background-color: aquamarine;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    flex-direction: column;
+
+}
+.aboutword.line{
+    display: inline-block;
+    margin-top: -120px;
+}
+.aboutword>span{
+    font-size: 35px;
+    display: inline-block;
+    margin: 0px 0 0 80px ;
+    margin-top: 20px;
+}
+.icon2>i{
+    color: aliceblue;
+    font-size: 26px;
+}
+.infoabout{
+    display:flex ;
+    justify-content: center;
+    height: 250px;
+    margin-left: 50px;
+    gap:10px
+    
+}
+.infoaboutleft{
+    width: 40%;
+    font-size: 30px;
+    margin-left: 50px;
+}
+.infoaboutright{
+    width: 40%;
+    font-size: 30px; 
+     
+}
+.download{
+    align-items: center;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    gap: 5px;
+    padding: 0 10px;
+    background-color: aquamarine;
+    border:2px solid white;
+}
+.buton>span{
+    display: inline-block;
+    margin: 0 auto;
+}
+.butoninfo{
+    color: white;
+}
+
+.button>i{
+    color: white;
+}
+.download:hover{
+    background-color: white;
+    border:2px solid aquamarine;
+}
+.download:hover .button>i{
+    color:black;
+}
+.download:hover .butoninfo{
+    color:black
+}
+.lineabout{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 10px;    /*gap: 6px;*/
+    margin-left: 4%;
+    padding: 20px 0;
+}
+.leftlineabout{
+    
+
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 1.5%; 
+    border: 3px solid white;
+}
+.rightlineabout{
+    
+    display: inline-block;
+    width: 200px;
+    margin-bottom: 1.5%; 
+    border: 3px solid white;
+}
+.foot{
+    display: flex;
+    height: 150px;
+    background-color: black;
+    justify-content: space-around;
+    gap:10px
+}
+.location{
+    width: 30%;
+    color:white;
+    
+}
+.locationinfo{
+font-size: 20px;
+    width: 50%;
+    display: inline-block;
+}
+.socialmedia{
+    width: 30%;
+
+}
+.socialword{
+    color:white;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    width:50%;
+    margin-left:10px;
+    margin-top: 20px;
+}
+.facebook{
+    width:35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: black;
+    border:2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.facebook>i{
+    color: white;
+}
+.facebook:hover{
+    border-color: black;
+    background-color: white;
+}
+.facebook:hover >i{
+    color:black;
+}
+.linkedin{
+    width:35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: black;
+    border:2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linkedin>i{
+    color: white;
+}
+.twitter{
+    width:35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: black;
+    border:2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.twitter>i{
+    color: white;
+}
+.basketball{
+    width:35px;
+    height: 35px;
+    border-radius: 100%;
+    background-color: black;
+    border:2px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.basketball>i{
+    color: white;
+}
+.aboutfreelance{
+    width: 30%;
+    color:white;
+    
+}
+.freelanceinfo{
+font-size: 20px;
+    width: 70%;
+    display: inline-block;
+}
+.freelanceinfo>a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+.linkedin:hover{
+    border-color: black;
+    background-color: white;
+}
+.linkedin:hover >i{
+    color:black;
+}
+.basketball:hover{
+    border-color: black;
+    background-color: white;
+}
+.basketball:hover >i{
+    color:black;
+}
+.twitter:hover{
+    border-color: black;
+    background-color: white;
+}
+.twitter:hover >i{
+    color:black;
+}
+.coopyright{
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
